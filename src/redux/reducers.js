@@ -2,6 +2,9 @@
 import { combineReducers } from "redux";
 
 // REDUCER IMPORTS
+import generalReducer from "./generalReducer";
 
 // EXPORTS
-export default combineReducers({});
+export default combineReducers({
+  generalData: generalReducer
+});
